@@ -8,7 +8,7 @@ const Navbar = () => {
           Russell's Portfolio
         </Link>
       </div>
-      <a href="" className="resume-btn">Resume</a>
+      <a href="https://resume.creddle.io/resume/ikjaeu079wo" className="resume-btn">Resume</a>
     </div>
   )
 }
