@@ -1,4 +1,4 @@
-import { projectData } from './ProjectData.js';
+import { projectData } from '../constants/ProjectData.ts';
 
 const Projects = () => {
   return (
