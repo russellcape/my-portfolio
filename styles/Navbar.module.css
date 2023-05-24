@@ -1,0 +1,10 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  color: "#36393d"
+}
+
+.homeLogo {
+  
+}

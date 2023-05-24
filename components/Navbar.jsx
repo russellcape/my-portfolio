@@ -1,14 +1,25 @@
-import Link from "next/link";
+// import Link from "next/link";
+import { Anchor } from '@mantine/core';
+import styles from "../styles/Navbar.module.css"
 
 const Navbar = () => {
   return (
-    <div className="nav-container">
+    <div className={styles.navContainer}>
       <div className="logo">
-        <Link href="/">
+        <Anchor 
+          className="home-btn"
+          href="/"
+        >
           Russell's Portfolio
-        </Link>
+        </Anchor>
       </div>
-      <a href="https://resume.creddle.io/resume/ikjaeu079wo" className="resume-btn">Resume</a>
+      <Anchor 
+        className="resume-btn" 
+        href="https://resume.creddle.io/resume/ikjaeu079wo" 
+        target="_blank"
+      >
+        Resume
+      </Anchor>
     </div>
   )
 }
