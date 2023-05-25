@@ -16,11 +16,11 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <Hero />
+        {/* <Hero />
         <About />
         <Skills />
         <Projects />
-        <Contact />
+        <Contact /> */}
       </div>
     </>
   );
