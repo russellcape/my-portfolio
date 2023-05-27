@@ -1,12 +1,23 @@
 import { 
   Anchor,
-  Group 
+  Group,
+  createStyles
 } from '@mantine/core';
-import styles from "../styles/Navbar.module.css"
+
+const useStyles = createStyles((theme) => ({
+  navContainer: {
+    display: "flex",
+    justifyContent: "space-between",
+    border: "1px solid red",
+    padding: "1rem 2rem",
+  }
+}));
 
 const Navbar = () => {
+  const { classes } = useStyles();
+
   return (
-    <Group className={styles.navContainer}>
+    <Group className={classes.navContainer}>
       <Anchor 
         className="home-btn"
         href="/"
